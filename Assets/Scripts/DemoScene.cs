@@ -117,10 +117,6 @@ public class DemoScene : MonoBehaviour
         //MELODY'S ADDITIONAL CODE
 
         // if the player falls off the map, transport back to tge start
-        if(_controller.transform.position.y <= -10)
-        {
-            _controller.transform.position = new Vector3(-3, 1, 0);
-        }
 
         // drop whatever item the player is holding
         if (Input.GetKey(KeyCode.E))
@@ -129,5 +125,8 @@ public class DemoScene : MonoBehaviour
         }
 
     }
+
+
+
 
 }

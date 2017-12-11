@@ -46,13 +46,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ChangeRespawn.cs" />
-     <Compile Include="Assets\Respawn.cs" />
+     <Compile Include="Assets\Scripts\ChangeRespawn.cs" />
      <Compile Include="Assets\Scripts\CharacterController2D.cs" />
      <Compile Include="Assets\Scripts\DemoScene.cs" />
      <Compile Include="Assets\Scripts\Door.cs" />
      <Compile Include="Assets\Scripts\Pickup.cs" />
+     <Compile Include="Assets\Scripts\PlatformMove.cs" />
+     <Compile Include="Assets\Scripts\Respawn.cs" />
      <Compile Include="Assets\Scripts\Security.cs" />
+     <Compile Include="Assets\Scripts\SecurityButton.cs" />
      <Compile Include="Assets\Scripts\SecurityChild.cs" />
      <Compile Include="Assets\Scripts\SmoothFollow.cs" />
  <Reference Include="UnityEngine.UI">

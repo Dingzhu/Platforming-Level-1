@@ -1,14 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Respawn.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SecurityButton.cs">
     <Files>
       <File FileName="Assets\Scripts\Door.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CharacterController2D.cs" Line="211" Column="14" />
-      <File FileName="Assets\Scripts\DemoScene.cs" Line="129" Column="1" />
-      <File FileName="..\..\AradiaDelivery\Assets\Scripts\PlayerMove.cs" Line="109" Column="30" />
-      <File FileName="Assets\Respawn.cs" Line="19" Column="37" />
-      <File FileName="Assets\ChangeRespawn.cs" Line="5" Column="45" />
-      <File FileName="Assets\Scripts\SecurityChild.cs" Line="3" Column="19" />
+      <File FileName="Assets\Scripts\DemoScene.cs" Line="108" Column="28" />
+      <File FileName="..\..\AradiaDelivery\Assets\Scripts\PlayerMove.cs" Line="15" Column="22" />
+      <File FileName="Assets\Scripts\SecurityChild.cs" Line="27" Column="1" />
+      <File FileName="Assets\Scripts\Respawn.cs" Line="7" Column="2" />
+      <File FileName="Assets\Scripts\PlatformMove.cs" Line="48" Column="74" />
+      <File FileName="Assets\Scripts\ChangeRespawn.cs" Line="14" Column="5" />
+      <File FileName="Assets\Scripts\SecurityButton.cs" Line="17" Column="55" />
+      <File FileName="Assets\Scripts\Pickup.cs" Line="53" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

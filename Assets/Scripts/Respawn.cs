@@ -13,7 +13,7 @@ public class Respawn : MonoBehaviour {
 	// Use this for initialization
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		
+
 
 		if (other.gameObject.tag == "Respawn"){
 			transform.position = respawnPoint;

@@ -12,7 +12,6 @@ public class ChangeRespawn : MonoBehaviour {
 		
 		if (collision.gameObject.tag == "Player")
 		{ 
-			Debug.Log ("HHAHAHA");
 			player.GetComponent<Respawn> ().ChangeRespawn (newPoint);
 		}
 	}

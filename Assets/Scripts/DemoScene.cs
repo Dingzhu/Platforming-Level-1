@@ -89,6 +89,7 @@ public class DemoScene : MonoBehaviour
 		// we can only jump whilst grounded
 		if( _controller.isGrounded && Input.GetKeyDown( KeyCode.W ) )
 		{
+			transform.parent = null;
 			_velocity.y = Mathf.Sqrt( 2f * jumpHeight * -gravity );
 		}
 
@@ -104,6 +105,7 @@ public class DemoScene : MonoBehaviour
 		// this lets us jump down through one way platforms
 		if( _controller.isGrounded && Input.GetKey( KeyCode.S ) )
 		{
+			transform.parent = null;
 			_velocity.y *= 15f;
 			_controller.ignoreOneWayPlatformsThisFrame = true;
 		}
@@ -116,7 +118,6 @@ public class DemoScene : MonoBehaviour
 
         //MELODY'S ADDITIONAL CODE
 
-        // if the player falls off the map, transport back to tge start
 
         // drop whatever item the player is holding
         if (Input.GetKey(KeyCode.E))
